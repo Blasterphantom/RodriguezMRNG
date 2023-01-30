@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Tech;
+    src: url(../assets/Share_Tech/ShareTech-Regular.ttf);
+}
+
+body{
+    background-color: #FFE53B;
+}
+
+.rngContainer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titleText{
+    font-family: Tech;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.lastFive{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.lastFiveBox{
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgba(0, 0, 0, .1);
+    height: 200px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lastFiveText{
+    font-family: Tech;
+}
+
+.generate{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.generateButton{
+    width: 150px;
+    background-color: #fe2524;
+    border-radius: 6px;
+    font-family: Tech;
+}
+
+.namesList{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.personName{
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.buttonDelete{
+    width: 50px;
+    border: none;
+    background-image: url("../assets/clipart1867388.png");
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.nameRow{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.injection{
+    display: flex;
+    flex-direction: column;
+}
+
